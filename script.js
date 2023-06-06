@@ -9,7 +9,7 @@ submit.addEventListener(`click`, (event)=>{
 
     // USERNAME VALIDATION
     if(username.value.trim()===''){
-        error(username,'username can not be empty') 
+        error(username,'username can not be empty') //error message
     } else{
         success(username);
     }
